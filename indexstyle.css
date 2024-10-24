@@ -150,23 +150,23 @@ body {
 }
 
 .window-grill{
-    background-image: url(/window-grill/window-grill.jpg);
+    background-image: url(window-grill/window-grill.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .balcony-railing{
-    background-image: url(/balcony-railing/balcony-railing.jpg);
+    background-image: url(balcony-railing/balcony-railing.jpg);
     background-size: cover;
     background-position: center;
 }
 .stair-railing{
-    background-image: url(/stair-railing/stair-railing.jpg);
+    background-image: url(stair-railing/stair-railing.jpg);
     background-size: cover;
     background-position: center;
 }
 .window-panes{
-    background-image: url(/window-pane/window-pane.jpg);
+    background-image: url(window-pane/window-pane.jpg);
     background-size: cover;
     background-position: center;
 }
