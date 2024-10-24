@@ -1,0 +1,189 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and borders are included in element size */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Basic font styling */
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #f7f7f7;
+}
+
+.icons{
+    display: flex;
+}
+
+.logo img {
+    width: 150px; /* Set logo width */
+    height: auto; /* Keep aspect ratio */
+}
+
+.search-bar{
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 20px;
+    padding-left:15px;
+    padding-right:15px;
+    height: 40px;
+}
+
+.search-bar button{
+    background-color: transparent;
+    border: none;
+    height: 25px;
+    width: auto;
+    padding-right: 7px ;
+    cursor: pointer;
+}
+
+.search-bar button i{
+    height: 24px;
+    width: auto;
+    
+}
+
+.search-bar input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size: 16px;
+    width: 750px;
+}
+
+.result-box{
+    z-index: 10;
+    position: relative;
+    background-color: #fff;
+}
+
+.result-box ul{
+    border-top: 1px solid rgb(144, 143, 143);
+    padding: 15px 10px;
+}
+
+.result-box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+}
+
+.result-box ul li:hover{
+    background-color: rgb(215, 215, 250);
+}
+
+.result-box ul li a{
+    text-decoration: none;
+    color: rgb(45, 44, 44);
+    font-size: 17px;
+    font-family:"Geneva", Verdana, sans-serif;
+}
+
+.cart-icon i {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.user-icon i {
+    width: 24px;
+    height: 24px;
+}
+
+/* Header Section */
+.header-section {
+    position: relative; /* Allows for positioning of overlay text */
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.header-image {
+    width: 85%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the text in the middle of the image */
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background behind the text */
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.overlay-text h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Services Section */
+.services-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.service-item {
+    width: 30%;
+    height: 700px;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    position: relative;
+}
+
+.window-grill{
+    background-image: url(/window-grill/window-grill.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.balcony-railing{
+    background-image: url(/balcony-railing/balcony-railing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.stair-railing{
+    background-image: url(/stair-railing/stair-railing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.window-panes{
+    background-image: url(/window-pane/window-pane.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.service-item a {
+    position: absolute;
+    bottom:70px; /* Aligns the text at the bottom of the container */
+    left: 100px;
+    right: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 150px;  
+    font-size: 25px;
+    font-weight: 800;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 50px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product Page - Balcony Railing</title>
+    <!-- Linking to external stylesheet for easy style management -->
+    <link rel="stylesheet" href="/pvstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header section containing logo and navigation icons -->
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo-container">
+                <!-- Logo image placeholder -->
+                <img src="/Logo.png" alt="F-Bricks Logo" class="logo-image">
+            </div>
+        </div>
+
+        <!-- Navigation icons like search, cart, and user account -->
+        <nav class="navigation-icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-user"></i>
+        </nav>
+    </header>
+
+    <!-- Main content section for the product -->
+    <main class="product-main">
+        <!-- Left section containing the product image -->
+        <section class="product-image-container">
+            <div class="product-img-holder">
+                <img src="balcony-railing.jpg" alt="balcony-railing" class="product-image">
+            </div>
+        </section>
+
+        <!-- Right section containing product information -->
+        <section class="product-details-container">
+            <!-- Product title -->
+            <h2 class="product-title">Balcony Railing</h2>
+
+            <!-- Product style number with a clickable link -->
+            <p class="product-style">
+                Style : 351CGYx84Z</a>
+            </p>
+
+            <!-- Button for selecting buying options -->
+            <div class="buying-options">
+                <a href="/balcony-railing/balconyrailingbuying.html">See buying option</a>
+            </div>
+
+            <!-- Section for selecting product colors -->
+            <div class="product-colors">
+                <p class="color-label">Colors</p>
+                <!-- Color selection options using radio buttons -->
+                <div class="color-options">
+                    <!-- Black color option -->
+                    <input type="radio" id="color-black" name="color" class="color-radio" checked>
+                    <label for="color-black" class="color-label black-color"></label>
+
+                    <!-- Gray color option -->
+                    <input type="radio" id="color-gray" name="color" class="color-radio">
+                    <label for="color-gray" class="color-label gray-color"></label>
+
+                    <!-- Silver color option -->
+                    <input type="radio" id="color-silver" name="color" class="color-radio">
+                    <label for="color-silver" class="color-label silver-color"></label>
+                </div>
+            </div>
+
+            <!-- Button to add product to favorites -->
+            <div class="add-to-favorites">
+                <button class="favorite-button">❤ Add to favorites</button>
+            </div>
+
+            <!-- Button to add product to cart -->
+            <button class="add-to-cart-button">Add to Cart</button>
+        </section>
+    </main>
+</body>
+</html>

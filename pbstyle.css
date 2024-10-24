@@ -1,0 +1,214 @@
+/* General page styling */
+body {
+    /* Set the default font for the body */
+    font-family: Arial, sans-serif;
+    
+    /* Remove default margin and padding from the body */
+    margin: 0;
+    padding: 0;
+    
+    /* Set a light background color for the entire page */
+    background-color: #f9f9f9;
+}
+
+.header img{
+    margin: 20px;
+    height: auto;
+    width: 150px;
+}
+
+/* Main container that wraps both the left and right sections */
+.container {
+    /* Use Flexbox to align left and right sections side by side */
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Left section styling */
+.left-section {
+    /* Set flex-grow to 1 to allow this section to take up available space */
+    flex: 1;
+    max-width: 40%;
+    text-align: center;
+}
+
+/* Styling for the product image */
+.product-image {
+    width: 350px; /* Fixed width */
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the product title */
+h1 {
+    /* Increase the font size of the product title */
+    font-size: 2.5rem;
+    
+    /* Add space above the title */
+    margin-top: 20px;
+}
+
+/* Styling for the color options section */
+.color-options {
+    /* Add some margin space on top */
+    margin-top: 20px;
+}
+
+/* Bold and size adjustments for the "Colors" label */
+.color-options p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Flexbox for displaying the color circles horizontally */
+.color-circles {
+    display: flex;
+    gap: 15px; /* Space between each color circle */
+    
+    /* Center the color circles horizontally */
+    justify-content: center;
+    
+    /* Add some space above the color circles */
+    margin-top: 10px;
+    cursor: pointer;
+}
+.circle:hover{
+    border: 2px solid black;
+    
+}
+circle:active{
+    border: 2px solid black;
+}
+
+/* Base styling for each color circle */
+.circle {
+    /* Fixed width and height for the circles */
+    width: 30px;
+    height: 30px;
+    
+    /* Make the circles round */
+    border-radius: 50%;
+    
+    /* Light gray border around the circles */
+    border: 2px solid #ccc;
+}
+
+/* Specific color styles for the circles */
+.circle.black {
+    background-color: black; /* Black color circle */
+}
+
+.circle.gray {
+    background-color: gray; /* Gray color circle */
+}
+
+.circle.white {
+    background-color: lightgray; /* Light gray (white) color circle */
+}
+
+/* Right section styling */
+.right-section {
+    /* Flex-grow to 1 to allow this section to take up remaining available space */
+    flex: 1;
+    
+    /* Maximum width for the right section */
+    max-width: 50%;
+    
+    /* Add padding on the left to create space between the sections */
+    padding-left: 50px;
+}
+
+/* Styling for the "Buying Options" title */
+h2 {
+    /* Increase the font size of the title */
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Add space below the title */
+    padding: 20px 0;
+    margin: 0px;
+    border-bottom: 1px solid #ddd;
+
+}
+
+/* Styling for each vendor option block */
+.vendor-option {
+    /* Add padding to each vendor option */
+    padding: 15px 0;
+    
+    /* Add a light gray border below each vendor block */
+    border-bottom: 1px solid #ddd;
+}
+
+/* Styling for the vendor name */
+.vendor-option h3 {
+    /* Increase the font size of the vendor name */
+    font-size: 1.5rem;
+    
+    /* Add some space below the vendor name */
+    margin-bottom: 10px;
+}
+
+/* Flexbox to align star ratings and price in a row */
+.rating {
+    display: flex;
+    
+    /* Space out the stars and the price */
+    justify-content: space-between;
+    
+    /* Vertically center-align the content */
+    align-items: center;
+}
+
+/* Styling for the star ratings */
+.stars {
+    /* Set star color to orange */
+    color: orange;
+}
+
+/* Styling for the price */
+.price {
+    /* Increase font size and make it bold */
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Styling for the vendor reviews dropdown */
+.vendor-reviews {
+    /* Add some margin space above the dropdown */
+    margin-top: 15px;
+}
+
+/* Custom styling for the select (dropdown) element */
+.vendor-reviews select {
+    /* Add padding inside the dropdown */
+    padding: 10px;
+    
+    /* Round the corners of the dropdown */
+    border-radius: 20px;
+    
+    /* Add a light gray border */
+    border: 1px solid #ccc;
+    
+    /* Change cursor to pointer when hovering */
+    cursor: pointer;
+    
+    /* Remove default arrow icon and make the dropdown smooth */
+    appearance: none;
+    
+    /* Background color for the dropdown */
+    background-color: #f9f9f9;
+    
+    /* Add smooth transition effect on hover */
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the dropdown */
+.vendor-reviews select:hover {
+    /* Change background color when hovering over the dropdown */
+    background-color: #e6e6e6;
+}

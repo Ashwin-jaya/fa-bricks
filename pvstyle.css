@@ -1,0 +1,216 @@
+/* General reset for consistent margin and padding across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling to apply font, background color, and text color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+/* Header styling for the top part of the page */
+.header {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between logo and icons */
+    align-items: center; /* Vertically align content */
+    padding: 20px; /* Padding for spacing */
+    background-color: #ffffff; /* White background for header */
+    border-bottom: 1px solid #ddd; /* Light gray border */
+}
+
+/* Logo container styling */
+.logo-container {
+    flex: 1; /* Take full available space */
+}
+
+/* Logo image placeholder styling */
+.logo-image {
+    width: 150px; /* Set logo width */
+    height: auto; /* Keep aspect ratio */
+}
+
+/* Styling for individual parts of the brand name */
+.brand-part {
+    font-family: 'Arial Black', sans-serif;
+    color: #000000; /* Black color */
+}
+
+/* Navigation icons container styling */
+.navigation-icons {
+    display: flex; /* Flexbox layout for icons */
+    gap: 50px; /* Space between icons */
+}
+
+/* Styling for navigation icons */
+.navigation-icons i {
+    height: auto;
+    width: 30px;
+} 
+
+/* Main content container */
+.product-main {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: flex-start; /* Align content to top */
+    padding: 40px; /* Padding for spacing */
+    background-color: #ffffff; /* White background */
+    margin: 20px auto; /* Centered with auto margin */
+    max-width: 1200px; /* Maximum width of the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Product image section */
+.product-image-container {
+    flex: 1; /* Occupy equal space */
+    text-align: center; /* Center the image */
+}
+
+/* Product image styling */
+.product-img-holder {
+    
+    image-rendering: crisp-edges;
+    background-color: pink;
+    width: 400px; /* Fixed width */
+    height: 500px; /* Maintain aspect ratio */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.product-img-holder img{
+    width: 400px; /* Fixed width */
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Product details section */
+.product-details-container {
+    flex: 1; /* Occupy equal space */
+    padding-left: 40px; /* Space between image and text */
+}
+
+/* Product title styling */
+.product-title {
+    font-size: 4rem; /* Large font size */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Product style number */
+.product-style {
+    color: #888; /* Gray text color */
+    margin-bottom: 30px; /* Space below the style number */
+}
+
+/* Buying options dropdown styling */
+.buying-options {
+    margin-bottom: 30px; /* Space below buying options */
+    
+}
+
+.buying-options-label {
+    display: block; /* Label displayed as a block */
+    margin: 40px; /* Space between label and dropdown */
+}
+
+.buying-options a{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px; /* Padding inside the dropdown */
+    background-color: #ffffff;
+    border-radius: 40px; /* Rounded corners */
+    border: 1px solid #ddd; /* Light gray border */
+    font-size: 16px; /* Font size for text */
+    width: 50%; /* Full width dropdown */
+    box-shadow: 10px 10px 15px #a2a2a2;
+
+}
+.buying-options a:hover{
+    background-color: #ebebeb;
+}
+
+/* Product color options styling */
+.product-colors {
+    margin-bottom: 20px; /* Space below the color section */
+}
+
+.color-label {
+    margin-bottom: 20px; /* Space below the color label */
+    display: block; /* Display label as a block */
+}
+
+/* Container for color circles */
+.color-options {
+    display: flex; /* Flexbox layout for color circles */
+    gap: 10px; /* Space between color circles */
+}
+
+/* Styling for color radio buttons */
+.color-radio {
+    display: none; /* Hide the radio buttons */
+}
+
+/* Styling for the color circles */
+.color-label {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%; /* Circular shape */
+    display: inline-block;
+    cursor: pointer; /* Pointer cursor on hover */
+    border: 1px solid #ddd; /* Light border around the circle */
+}
+
+.color-label:hover{
+    border: 1px solid #333333;
+    padding: 1px;
+}
+
+/* Specific color styles */
+.black-color {
+    background-color: #000000; /* Black color */
+}
+
+.gray-color {
+    background-color: #808080; /* Gray color */
+}
+
+.silver-color {
+    background-color: #c0c0c0; /* Silver color */
+}
+
+/* Add to favorites button styling */
+.add-to-favorites {
+    margin-bottom: 18px; /* Space below the button */
+}
+
+.favorite-button {
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    color: rgb(0, 0, 0); /* Red text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 22px; /* Font size */
+}
+
+.favorite-button:hover{
+    color: #4e4e4e;
+}
+
+/* Add to cart button styling */
+.add-to-cart-button {
+    padding: 10px 90px; /* Padding inside the button */
+    background-color: #000000; /* Black background color */
+    color: #ffffff; /* White text color */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 18px; /* Font size */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.add-to-cart-button:hover {
+    background-color: #333333; /* Darker background on hover */
+}
