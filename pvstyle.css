@@ -109,8 +109,7 @@ body {
 
 /* Buying options dropdown styling */
 .buying-options {
-    margin-bottom: 30px; /* Space below buying options */
-    margin-top: 45px; 
+    margin-bottom: 30px; /* Space below buying options */ 
 }
 
 .buying-options-label {
