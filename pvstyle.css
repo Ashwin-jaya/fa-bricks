@@ -137,6 +137,7 @@ body {
 /* Product color options styling */
 .product-colors {
     margin-bottom: 20px; /* Space below the color section */
+    margin-top: 50px;
 }
 
 .color-label {
